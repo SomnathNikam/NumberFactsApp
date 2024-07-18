@@ -3,28 +3,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#7FB9EC"
+    android:background="#EEF7FF"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/numberTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="48sp"
-        android:text=" ?"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        android:text=" ?"
+        android:textSize="48sp" />
 
     <TextView
         android:id="@+id/factTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:text="Press the button to get a fact"
         android:layout_below="@id/numberTV"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:padding="16dp"/>
+        android:padding="16dp"
+        android:text="Press the button to get a fact"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/generateFactbtn"
@@ -32,11 +32,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/factTV"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="61dp"
-        android:layout_marginEnd="98dp"
-        android:textColor="#F6F5F5"
-        android:background="@drawable/roundbtn"
-        android:text="Generate Random Number" />
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="#99C0D1"
+        android:text="Generate Random Number"
+        android:textColor="#E9015503"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/sharebtn"
@@ -46,7 +47,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="60dp"
         android:layout_marginTop="85dp"
-        android:background="@drawable/roundbtn"
+        android:backgroundTint="#99C0D1"
         android:text="Share This Fact"
+        android:textColor="#E9015503"
+        android:textSize="25sp"
         android:visibility="visible" />
 </RelativeLayout>

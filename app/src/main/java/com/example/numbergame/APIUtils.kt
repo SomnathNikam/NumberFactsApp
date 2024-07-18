@@ -16,4 +16,3 @@ object APIUtils {
         client.newCall(request).enqueue(callback)
     }
 }
-
