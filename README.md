@@ -40,7 +40,7 @@ The Number Facts Android App provides interesting facts about any given number a
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/number-facts-app.git
+    git clone https://github.com/SomnathNikam/NumberFactsApp.git
     ```
 2. **Open the project in Android Studio**
     - Open Android Studio
